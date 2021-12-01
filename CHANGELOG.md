@@ -1,4 +1,7 @@
 # Changelog
+## 0.5.0 build 128
+* Fix: t-address being displayed instead of Sapling
+* point to SDK 0.12.0-beta.5
 
 ## 0.5.0 build 125
 * Issue #293 Crash when browsing Wallet History and sync happens
