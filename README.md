@@ -40,15 +40,11 @@ note: z means sapling shielded addresses.
 
 2. Create `env-vars.sh file` at `${SRCROOT}` [See Instructions](https://github.com/zcash/ZcashLightClientKit#setting-env-varsh-file-to-run-locally)
 
-3. make sure that your environment has the variable `ZCASH_NETWORK_ENVIRONMENT` set to`MAINNET`or `TESTNET`.
+3. Navigate to the wallet directory where the `Podfile` file is located and run `pod install`
 
-4. Navigate to the wallet directory where the `Podfile` file is located and run `pod install`
+4. open the `ECC-Wallet.xcworkspace` file
 
-5. open the `ECC-Wallet.xcworkspace` file
-
-6. locate the `.params` files that are missing in the project and include them at the specified locations
-
-7. build and run on simulator.
+5. build and run on simulator.
 
 If you had problems in any of these steps please check the [troubleshooting document](/TROUBLESHOOTING.md)
 # Enabling/Disabling logging Features
